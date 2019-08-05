@@ -1,6 +1,6 @@
 # Craft CP Assets plugin for Craft CMS 3.x
 
-Add CSS and JS to the Control Panel.
+Add CSS and JS to the Craft CMS Control Panel.
 
 ## Requirements
 
