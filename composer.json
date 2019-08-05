@@ -2,7 +2,7 @@
     "name": "lewisjenkins/craft-cp-assets",
     "description": "Add CSS and JS to the Craft CMS Control Panel.",
     "type": "craft-plugin",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "keywords": [
         "craft",
         "cms",
