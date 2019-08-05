@@ -1,0 +1,40 @@
+{
+    "name": "lewisjenkins/craft-cp-assets",
+    "description": "...",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft cp assets"
+    ],
+    "support": {
+        "docs": "https://github.com/lewisjenkins/craft-cp-assets/blob/master/README.md",
+        "issues": "https://github.com/lewisjenkins/craft-cp-assets/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lewis Jenkins",
+            "homepage": "https://lj.io"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "lewisjenkins\\craftcpassets\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "LJ Control Panel Assets",
+        "handle": "craft-cp-assets",
+        "hasCpSettings": true,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/lewisjenkins/craft-cp-assets/master/CHANGELOG.md",
+        "class": "lewisjenkins\\craftcpassets\\CraftCpAssets"
+    }
+}

@@ -1,0 +1,17 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+    label: 'CSS File',
+    instructions: 'eg. /resources/css/cp.css',
+    id: 'cssFile',
+    name: 'cssFile',
+    value: settings['cssFile']})
+}}
+
+{{ forms.textField({
+    label: 'JS File',
+    instructions: 'eg. /resources/js/cp.js',
+    id: 'jsFile',
+    name: 'jsFile',
+    value: settings['jsFile']})
+}}
